@@ -74,7 +74,7 @@ def read_files(path, find_str):
                         Output.append(str(ListOfFileNames[i]))
                         break
                 
-        if (".txt" in ListOfFileNames[i] or ".csv" in ListOfFileNames[i] or ".xlsx" in ListOfFileNames[i] or ".mkape" in ListOfFileNames[i])==True:
+        if (".txt" in ListOfFileNames[i] or ".csv" in ListOfFileNames[i] or ".xlsx" in ListOfFileNames[i])==True:
             flag = check_file_encoding(AllFilesList[i])
             if flag == 0:
                 
